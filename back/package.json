@@ -1,8 +1,16 @@
 {
-  "dependencies": {
-    "bcrypt": "^5.0.1",
-    "dotenv": "^16.0.1",
-    "express": "^4.18.1",
-    "mongoose": "^6.5.0"
-  }
+    "dependencies": {
+        "bcrypt": "^5.0.1",
+        "cors": "^2.8.5",
+        "ddos": "^0.2.1",
+        "dotenv": "^16.0.1",
+        "express": "^4.18.1",
+        "helmet": "^5.1.1",
+        "mariadb": "^3.0.1",
+        "mysql2": "^2.3.3",
+        "sequelize": "^6.21.3"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.19"
+    }
 }
