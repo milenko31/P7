@@ -29,4 +29,4 @@ const postSchema = sequelize.define('Post', {
     //comment
 });
 
-module.exports = mongoose.model('post', postSchema);
+module.exports = sequelize.model('post', postSchema);
