@@ -1,0 +1,1 @@
+import{a as e,o,f as t,h as s}from"./entry.796ac950.mjs";const n={head(){return{title:"Mon compte"}}},c=s("h1",null,"Je suis mon compte",-1),a=[c];function r(_,p,d,i,l,m){return o(),t("div",null,a)}const f=e(n,[["render",r]]);export{f as default};
