@@ -17,5 +17,5 @@ export default {
       <slot />
     </main>
   </div>
-  <!--<LayoutFooter />-->
+  <LayoutFooter />
 </template>
