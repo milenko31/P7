@@ -2,13 +2,13 @@ const client_manifest = {
   "components/Layout/logo_groupomania.png": {
     "resourceType": "image",
     "mimeType": "image/png",
-    "file": "logo_groupomania.0e0224b9.png",
+    "file": "logo_groupomania.9b9aade5.png",
     "src": "components/Layout/logo_groupomania.png"
   },
   "node_modules/nuxt/dist/app/entry.mjs": {
     "resourceType": "script",
     "module": true,
-    "file": "entry.796ac950.mjs",
+    "file": "entry.7c437640.mjs",
     "src": "node_modules/nuxt/dist/app/entry.mjs",
     "isEntry": true,
     "dynamicImports": [
@@ -16,21 +16,22 @@ const client_manifest = {
       "pages/index.vue",
       "pages/inscription.vue",
       "pages/mon-compte.vue",
+      "pages/posts.vue",
       "virtual:nuxt:C:/Users/admin/Desktop/P7/front/.nuxt/error-component.mjs",
       "layouts/default.vue"
     ],
     "css": [
-      "entry.67e31b51.css"
+      "entry.784e6f77.css"
     ]
   },
-  "entry.67e31b51.css": {
-    "file": "entry.67e31b51.css",
+  "entry.784e6f77.css": {
+    "file": "entry.784e6f77.css",
     "resourceType": "style"
   },
   "virtual:nuxt:C:/Users/admin/Desktop/P7/front/.nuxt/error-component.mjs": {
     "resourceType": "script",
     "module": true,
-    "file": "error-component.718e074d.mjs",
+    "file": "error-component.a64acc3e.mjs",
     "src": "virtual:nuxt:C:/Users/admin/Desktop/P7/front/.nuxt/error-component.mjs",
     "isDynamicEntry": true,
     "imports": [
@@ -44,7 +45,7 @@ const client_manifest = {
   "pages/connexion.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "connexion.667c2263.mjs",
+    "file": "connexion.43d54b84.mjs",
     "src": "pages/connexion.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -54,7 +55,7 @@ const client_manifest = {
   "pages/index.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "index.1004d65f.mjs",
+    "file": "index.54972315.mjs",
     "src": "pages/index.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -64,7 +65,7 @@ const client_manifest = {
   "pages/inscription.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "inscription.dd3cbb88.mjs",
+    "file": "inscription.9f09e286.mjs",
     "src": "pages/inscription.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -74,8 +75,18 @@ const client_manifest = {
   "pages/mon-compte.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "mon-compte.85b9f1d2.mjs",
+    "file": "mon-compte.97176be6.mjs",
     "src": "pages/mon-compte.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/posts.vue": {
+    "resourceType": "script",
+    "module": true,
+    "file": "posts.c28fcbab.mjs",
+    "src": "pages/posts.vue",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.mjs"
@@ -84,25 +95,25 @@ const client_manifest = {
   "layouts/default.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "default.c2eb4cd9.mjs",
+    "file": "default.c882470a.mjs",
     "src": "layouts/default.vue",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.mjs"
     ],
     "assets": [
-      "logo_groupomania.0e0224b9.png"
+      "logo_groupomania.9b9aade5.png"
     ]
   },
-  "logo_groupomania.0e0224b9.png": {
-    "file": "logo_groupomania.0e0224b9.png",
+  "logo_groupomania.9b9aade5.png": {
+    "file": "logo_groupomania.9b9aade5.png",
     "resourceType": "image",
     "mimeType": "image/png"
   },
   "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "error-404.213ed33c.mjs",
+    "file": "error-404.c506c539.mjs",
     "src": "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -119,7 +130,7 @@ const client_manifest = {
   "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "error-500.c8a23531.mjs",
+    "file": "error-500.82fca928.mjs",
     "src": "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -145,7 +156,7 @@ const client_manifest = {
   },
   "node_modules/nuxt/dist/app/entry.css": {
     "resourceType": "style",
-    "file": "entry.67e31b51.css",
+    "file": "entry.784e6f77.css",
     "src": "node_modules/nuxt/dist/app/entry.css"
   }
 };

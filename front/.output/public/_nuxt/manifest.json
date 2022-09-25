@@ -1,10 +1,10 @@
 {
   "components/Layout/logo_groupomania.png": {
-    "file": "_nuxt/logo_groupomania.0e0224b9.png",
+    "file": "_nuxt/logo_groupomania.9b9aade5.png",
     "src": "components/Layout/logo_groupomania.png"
   },
   "node_modules/nuxt/dist/app/entry.mjs": {
-    "file": "_nuxt/entry.796ac950.mjs",
+    "file": "_nuxt/entry.7c437640.mjs",
     "src": "node_modules/nuxt/dist/app/entry.mjs",
     "isEntry": true,
     "dynamicImports": [
@@ -12,15 +12,16 @@
       "pages/index.vue",
       "pages/inscription.vue",
       "pages/mon-compte.vue",
+      "pages/posts.vue",
       "virtual:nuxt:C:/Users/admin/Desktop/P7/front/.nuxt/error-component.mjs",
       "layouts/default.vue"
     ],
     "css": [
-      "_nuxt/entry.67e31b51.css"
+      "_nuxt/entry.784e6f77.css"
     ]
   },
   "virtual:nuxt:C:/Users/admin/Desktop/P7/front/.nuxt/error-component.mjs": {
-    "file": "_nuxt/error-component.718e074d.mjs",
+    "file": "_nuxt/error-component.a64acc3e.mjs",
     "src": "virtual:nuxt:C:/Users/admin/Desktop/P7/front/.nuxt/error-component.mjs",
     "isDynamicEntry": true,
     "imports": [
@@ -32,7 +33,7 @@
     ]
   },
   "pages/connexion.vue": {
-    "file": "_nuxt/connexion.667c2263.mjs",
+    "file": "_nuxt/connexion.43d54b84.mjs",
     "src": "pages/connexion.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -40,7 +41,7 @@
     ]
   },
   "pages/index.vue": {
-    "file": "_nuxt/index.1004d65f.mjs",
+    "file": "_nuxt/index.54972315.mjs",
     "src": "pages/index.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -48,7 +49,7 @@
     ]
   },
   "pages/inscription.vue": {
-    "file": "_nuxt/inscription.dd3cbb88.mjs",
+    "file": "_nuxt/inscription.9f09e286.mjs",
     "src": "pages/inscription.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -56,26 +57,34 @@
     ]
   },
   "pages/mon-compte.vue": {
-    "file": "_nuxt/mon-compte.85b9f1d2.mjs",
+    "file": "_nuxt/mon-compte.97176be6.mjs",
     "src": "pages/mon-compte.vue",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.mjs"
     ]
   },
+  "pages/posts.vue": {
+    "file": "_nuxt/posts.c28fcbab.mjs",
+    "src": "pages/posts.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
   "layouts/default.vue": {
-    "file": "_nuxt/default.c2eb4cd9.mjs",
+    "file": "_nuxt/default.c882470a.mjs",
     "src": "layouts/default.vue",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.mjs"
     ],
     "assets": [
-      "_nuxt/logo_groupomania.0e0224b9.png"
+      "_nuxt/logo_groupomania.9b9aade5.png"
     ]
   },
   "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue": {
-    "file": "_nuxt/error-404.213ed33c.mjs",
+    "file": "_nuxt/error-404.c506c539.mjs",
     "src": "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -86,7 +95,7 @@
     ]
   },
   "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue": {
-    "file": "_nuxt/error-500.c8a23531.mjs",
+    "file": "_nuxt/error-500.82fca928.mjs",
     "src": "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -105,7 +114,7 @@
     "src": "node_modules/@nuxt/ui-templates/dist/templates/error-404.css"
   },
   "node_modules/nuxt/dist/app/entry.css": {
-    "file": "_nuxt/entry.67e31b51.css",
+    "file": "_nuxt/entry.784e6f77.css",
     "src": "node_modules/nuxt/dist/app/entry.css"
   }
 }

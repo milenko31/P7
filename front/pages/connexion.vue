@@ -23,7 +23,7 @@
           )
             .then((res) => {
               console.log(res)
-              return navigateTo('/mon-compte')
+              return navigateTo('/posts')
             })
             .catch((err) => {
               console.log(err)
