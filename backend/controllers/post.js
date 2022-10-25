@@ -17,21 +17,21 @@ exports.createPost = (req, res, next) => {
         })
         .then(userFound => {
             console.log(req.file.filename)
-                /*        if (userFound) {
-                            const post = db.Post.build({
-                                title: req.body.title,
-                                content: req.body.content,
-                                userId: userFound.id,
-                                imageUrl: `${req.protocol}://${req.get('host')}/images/${req.file.filename}`
-                            })
+            if (userFound) {
+                const post = db.Post.build({
+                    title: req.body.title,
+                    content: req.body.content,
+                    userId: userFound.id,
+                    imageUrl: `${req.protocol}://${req.get('host')}/images/${req.file.filename}`
+                })
 
-                            post.save()
-                                .then(() => res.status(201).json({ message: 'Votre post est crée' }))
-                                .catch(error => res.status(400).json({ error: 'Oops' }))
-                        } else {
-                            return res.status(404).json({ error: "Utilisateur non trouvé" })
+                post.save()
+                    .then(() => res.status(201).json({ message: 'Votre post est crée' }))
+                    .catch(error => res.status(400).json({ error: 'Oops' }))
+            } else {
+                return res.status(404).json({ error: "Utilisateur non trouvé" })
 
-                        }*/
+            }
         })
         .catch(error => {
             console.log(error)

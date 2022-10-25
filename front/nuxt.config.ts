@@ -20,15 +20,24 @@ export default defineNuxtConfig({
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
   },
-  css: [
-    "@/assets/css/normalize.css",
-    "@/assets/css/style.css",
-  ],
-  build: {
-    postcss: {
-      postcssOptions: require("./postcss.config.js"),
+    css: [
+        "@/assets/css/normalize.css",
+        "@/assets/css/style.css",
+         ],
+    build: {
+        postcss: {
+            postcssOptions: {
+                plugins: {
+                    tailwindcss: {},
+                    autoprefixer: {},
+                },
+            },
+        },
+        transpile: [
+            "@heroicons/vue"
+        ],
     },
-    transpile: ["@heroicons/vue"],
-  },
-  buildModules: ["@pinia/nuxt"],
+    buildModules: [
+        "@pinia/nuxt"
+    ],
 });
